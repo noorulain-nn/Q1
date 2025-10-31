@@ -113,5 +113,5 @@ app.delete("/api/todos/:id", async (req, res) => {
   }
 });
 
-const PORT = 5000;
+const PORT = 4001;
 app.listen(PORT, () => console.log(`Backend running on http://localhost:${PORT}`));
